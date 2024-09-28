@@ -9,7 +9,11 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div><Button variant="outline">Button</Button>
+      <div>
+        <Button variant="outline">Button</Button>
+        <Button variant="secondary">Button</Button>
+        <Button variant="destructive">Button</Button>
+        <Button>Button</Button>
         <a href='https://electron-vite.github.io' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
         </a>

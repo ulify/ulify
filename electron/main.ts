@@ -31,12 +31,18 @@ function createWindow() {
     icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.mjs'),
+      nodeIntegrationInWorker: true,
+      contextIsolation: false,
+      nodeIntegration: true,
+      webSecurity: false, // Allow Ajax cross
     },
   })
 
+  win.webContents.openDevTools()
+
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {
-    win?.webContents.send('main-process-message', (new Date).toLocaleString())
+    win?.webContents.send('main-process-message', app.getAppPath())
   })
 
   if (VITE_DEV_SERVER_URL) {
