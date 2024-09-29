@@ -7,7 +7,7 @@ type EventCapture = {
 };
 
 declare module "@material-tailwind/react" {
-  export interface ButtonGroupProps{
+  export interface ButtonGroupProps extends EventCapture {
     placeholder?: unknown;
   }
   export interface ButtonProps extends EventCapture {
@@ -19,5 +19,25 @@ declare module "@material-tailwind/react" {
   export interface SelectProps extends EventCapture {
     placeholder?: unknown;
   }
-  // more...
+  export interface AvatarProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface TypographyProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface ListItemSuffixProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface IconButtonProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface ListProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface ListItemProps extends EventCapture {
+    placeholder?: unknown;
+  }
+  export interface ListItemPrefixProps extends EventCapture {
+    placeholder?: unknown;
+  }
 }

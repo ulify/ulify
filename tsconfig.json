@@ -11,12 +11,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "react-jsx",
+    "types": ["node_modules/@types"],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/renderer/*"],
-      "@config/*": ["./src/config/*"],
-      "@main/*": ["./src/main/*"]
+      "@/*": ["./src/renderer/*"]
     },
-    "types": ["node_modules/@types"]
   }
 }
