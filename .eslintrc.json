@@ -12,7 +12,5 @@
     "plugin:import/electron",
     "plugin:import/typescript"
   ],
-  "parser": "@typescript-eslint/parser",
-  "rules": {
-  }
+  "parser": "@typescript-eslint/parser"
 }
