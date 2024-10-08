@@ -1,3 +1,6 @@
+@import "fonts.css";
+@import "common.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -63,4 +66,12 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+.drag{
+  -webkit-app-region: drag;
+}
+.no-drag{
+  -webkit-app-region: no-drag;
 }

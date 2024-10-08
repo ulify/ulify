@@ -9,9 +9,22 @@ if (require('electron-squirrel-startup')) {
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    frame: false,
+    width: 980,
+    height: 680,
+    useContentSize: true,
+    resizable: true,
+    fullscreenable: false,
+    title: 'Toolify',
+    show: true,
+    transparent: false,
+    skipTaskbar: true,
+    focusable: true,
+    alwaysOnTop: true,
+    // titleBarStyle: 'hiddenInset',
+    // trafficLightPosition: {
+    //   x: 12,
+    //   y: 16
+    // },
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },

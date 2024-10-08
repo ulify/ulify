@@ -5,39 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da011057-f526-4711-adeb-18ee0ccb59d5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ulify.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forge.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge.env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forge.env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header-bar/header-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header-bar/search-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-bar/menu-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-bar/settings-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-bar/theme-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/provider/theme-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/device.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preload/preload.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/common/app-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/common/theme-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/design/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/windows/detach/app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/windows/detach/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/windows/main/app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/windows/main/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_electron/main/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/_electron/main/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/material-tailwind.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.main.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.main.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.preload.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.preload.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.renderer.detach.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xf079&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ulify/ulify.git&quot;,
+    &quot;accountId&quot;: &quot;f586900c-94c8-4fff-8002-22897829874f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2n6KF068K0LtSPK65w22FARBrBq" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -60,28 +54,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/github/ulify/ulify",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.start.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\github\\ulify\\ulify\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "D:\\github\\ulify\\ulify\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github/ulify/ulify&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/lance/dev/github/ulify/ulify/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/lance/dev/github/ulify/ulify/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github\ulify\ulify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/menu-bar" />
+      <recent name="$PROJECT_DIR$/src/components/provider" />
       <recent name="D:\github\ulify\ulify\src\_electron\preload" />
       <recent name="D:\github\ulify\ulify\src\_electron\main" />
       <recent name="D:\github\ulify\ulify\src\_electron" />
@@ -120,6 +116,9 @@
       <option name="presentableId" value="Default" />
       <updated>1728287977554</updated>
       <workItem from="1728287978691" duration="1644000" />
+      <workItem from="1728369368149" duration="920000" />
+      <workItem from="1728370312267" duration="4095000" />
+      <workItem from="1728376775414" duration="4335000" />
     </task>
     <servers />
   </component>
