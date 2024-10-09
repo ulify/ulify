@@ -11,6 +11,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 980,
     height: 680,
+    frame:false,
     useContentSize: true,
     resizable: true,
     fullscreenable: false,
