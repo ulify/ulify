@@ -21,11 +21,11 @@ const createWindow = () => {
     skipTaskbar: true,
     focusable: true,
     alwaysOnTop: true,
-    // titleBarStyle: 'hiddenInset',
-    // trafficLightPosition: {
-    //   x: 12,
-    //   y: 16
-    // },
+    titleBarStyle: 'hiddenInset',
+    trafficLightPosition: {
+      x: 6,
+      y: 8
+    },
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },

@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da011057-f526-4711-adeb-18ee0ccb59d5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/settings-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/chat/chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/plugins/plugins.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/search/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/provider/state-provider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_electron/main/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/_electron/main/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header-bar/header-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header-bar/header-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-bar/menu-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer-bar/footer-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-bar/settings-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer-bar/settings-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-bar/theme-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer-bar/theme-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer-bar/footer-bar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer-bar/settings-button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer-bar/theme-button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/provider/theme-provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/provider/theme-provider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +63,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\github\\ulify\\ulify\\node_modules\\prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/lance/dev/github/ulify/ulify/node_modules/prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\github\\ulify\\ulify\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/lance/dev/github/ulify/ulify/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,11 +74,11 @@
       <recent name="D:\github\ulify\ulify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/menu-bar" />
       <recent name="$PROJECT_DIR$/src/components/provider" />
       <recent name="D:\github\ulify\ulify\src\_electron\preload" />
       <recent name="D:\github\ulify\ulify\src\_electron\main" />
-      <recent name="D:\github\ulify\ulify\src\_electron" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,6 +120,10 @@
       <workItem from="1728400386917" duration="713000" />
       <workItem from="1728438947977" duration="15180000" />
       <workItem from="1728480109260" duration="1146000" />
+      <workItem from="1728536310339" duration="327000" />
+      <workItem from="1728536916937" duration="211000" />
+      <workItem from="1728547778684" duration="1914000" />
+      <workItem from="1728550276102" duration="425000" />
     </task>
     <servers />
   </component>

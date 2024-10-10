@@ -1,7 +1,6 @@
 import { Badge } from '@/components/ui/badge';
-import { ThemeProvider } from '@/components/provider/theme-provider';
+import { ThemeProvider } from '@/provider/theme-provider';
 import { HeaderBar } from '@/components/header-bar/header-bar';
-import { FooterBar } from '@/components/footer-bar/footer-bar';
 import { Navbar } from '@/components/navbar/navbar';
 
 const BasicLayout = () => {
@@ -14,7 +13,6 @@ const BasicLayout = () => {
           <Badge variant='secondary'>Secondary</Badge>
         </div>
         <div className='flex-1'>{/*<MenuBar />*/}</div>
-        <FooterBar />
       </div>
     </div>
   );
